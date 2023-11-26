@@ -18,6 +18,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
+        <title>Cookiy - Software Company</title>
+        <meta name='description' content='Cookiy Company Choose it in your Software System or web applications' />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta name='robots' content='index, follow' />
       </Head>
