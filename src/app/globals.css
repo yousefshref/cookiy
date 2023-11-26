@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Normal'; /*a name to be used later*/
+    src: url('/fonts/Cocogoose Pro Light-trial.ttf'); /*URL to font*/
+}
+@font-face {
+    font-family: 'Bold'; /*a name to be used later*/
+    src: url('/fonts/couture-bld.otf'); /*URL to font*/
+}
+
+.bold{
+    font-family: 'Bold';
+}
+.normal{
+    font-family: 'Normal';
+}
+
+body{
+    /* height: 400vh; */
+    background: url(/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+h1{
+    @apply text-4xl
+}
+h3{
+    @apply text-3xl
+}
+
+button{
+    @apply bg-red-100 px-5 p-1 rounded-sm transition-all hover:bg-red-400 hover:text-white
+}
+
+input{
+    @apply border border-neutral-200 p-2 rounded-md
+}
+
+@keyframes fH2{
+    from{
+        height: 0px;
+    }
+    to{
+        height: 40px;
+    }
+}
+
+#fH2{
+    animation-name: fH2;
+    animation-duration: 2s;
+}
+
+@keyframes fH1{
+    from{
+        height: 0px;
+    }
+    40%{
+        height: 20px;
+    }
+    to{
+        height: 40px;
+    }}
+
+#fH1{
+    animation-name: fH1;
+    animation-duration: 2s;
+}
+@keyframes btnLanding{
+    from{
+        height: 0px;
+        padding: 0px;
+    }
+    to{
+        height: 30px;
+    }}
+
+#btnLanding{
+    animation-name: btnLanding;
+    animation-duration: 3s;
+}
