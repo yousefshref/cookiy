@@ -61,7 +61,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className={`${window.innerHeight < 720 ? "mt-1" : ""} whatWeDo p-10 rounded-md bg-white w-[92vw] h-auto mx-auto mt-[-125px] left-[50%] translate-x-[-50%] shadow-lg absolute`}>
+      <div className={`whatWeDo p-10 rounded-md bg-white w-[92vw] h-auto mx-auto mt-[-125px] left-[50%] translate-x-[-50%] shadow-lg absolute`}>
         <h1 className="text-blue-500 text-lg">- What is Cookiy ?</h1>
         <p className="md:text-2xl text-lg py-7 ">Cookiy is a new software company that aims to move you from the boring world to your own world with all your standards that you want. <br /> If you want to profit or appear o all the world in way that suits you and reflects your identity.</p>
       </div>
